@@ -1,0 +1,14 @@
+header{
+    height: 100px;
+}
+.spotify-bg-header{
+    background-color: #06131f;
+}
+.icon-brand{
+    height: 50px;
+    margin-top: 1rem;
+}
+
+body{
+    background-color: #1d2d3c;
+}

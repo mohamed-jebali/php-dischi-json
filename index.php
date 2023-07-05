@@ -12,13 +12,20 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- AXIOS SCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <div id="app">
-        <h1>
-            Spotfiy Php
-        </h1>
-        {{ message }}
+        <div class="wrapper-app spotify-bg-header">
+        <div class="container">
+            <header class="row">
+                <div class="col-10 mx-auto">
+            <img class='icon-brand' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/232px-Spotify_icon.svg.png" alt="icon-spotify">
+                </div>
+            </header>
+        </div>
+        </div>
     </div>
     <script src="./script/main.js"></script>
 </body>
