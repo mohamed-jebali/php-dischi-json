@@ -1,5 +1,5 @@
 header{
-    height: 100px;
+    height: 80px;
 }
 .spotify-bg-header{
     background-color: #06131f;
@@ -11,4 +11,12 @@ header{
 
 body{
     background-color: #1d2d3c;
+}
+
+.card-disc{
+    background-color: #112030;
+}
+
+.img-card{
+    width: 100%;
 }

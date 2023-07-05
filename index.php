@@ -18,14 +18,56 @@
 <body>
     <div id="app">
         <div class="wrapper-app spotify-bg-header">
-        <div class="container">
+        <div class="container mb-5">
             <header class="row">
-                <div class="col-10 mx-auto">
+           <div class="col-12 mx-auto mb-3">
             <img class='icon-brand' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/232px-Spotify_icon.svg.png" alt="icon-spotify">
                 </div>
             </header>
+           </div>
+            <!-- <div class="list" v-for="item in list"></div>
+            {{ item.title }}
+           </div> -->
         </div>
-        </div>
+        <div class="container">
+            <div class="col-10 row mx-auto mb-3 justify-content-around ">
+            <div class="card-disc p-4 col-3 rounded">
+                <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
+                <h3 class='text-center text-white'>
+                  New Jersey  
+                </h3>
+                <p class='text-center text-white'>
+                    Bon Jovi
+                </p>
+                <p class='text-center text-white fw-bold'>
+                    1988
+                </p>
+            </div>
+            <div class="card-disc p-4 col-3 rounded">
+                <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
+                <h3 class='text-center text-white'>
+                  New Jersey  
+                </h3>
+                <p class='text-center text-white'>
+                    Bon Jovi
+                </p>
+                <p class='text-center text-white fw-bold'>
+                    1988
+                </p>
+            </div>
+            <div class="card-disc p-4 col-3 rounded">
+                <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
+                <h3 class='text-center text-white'>
+                  New Jersey  
+                </h3>
+                <p class='text-center text-white'>
+                    Bon Jovi
+                </p>
+                <p class='text-center text-white fw-bold'>
+                    1988
+                </p>
+            </div>
+            </div>
     </div>
     <script src="./script/main.js"></script>
 </body>
