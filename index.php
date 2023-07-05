@@ -28,8 +28,8 @@
         </div>
         <div class="container">
             <div class="col-10 row mx-auto mb-3 justify-content-between">
-            <div class="card-disc p-4 col-3 mx-4 rounded mb-5" v-for="disc in listDiscs">
-                <img class='img-card mb-2' :src="disc.poster" alt="disc.title">
+            <div class="card-disc pt-4 pb-0 px-5 col-3 mx-4 rounded mb-5" v-for="disc in listDiscs">
+                <img class='img-card mb-3' :src="disc.poster" alt="disc.title">
                 <h3 class='text-center text-white'>
                  {{ disc.title }}
                 </h3>
