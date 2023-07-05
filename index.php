@@ -25,40 +25,13 @@
                 </div>
             </header>
            </div>
-            <!-- <div class="list" v-for="item in list"></div>
-            {{ item.title }}
-           </div> -->
         </div>
         <div class="container">
             <div class="col-10 row mx-auto mb-3 justify-content-around ">
-            <div class="card-disc p-4 col-3 rounded">
+            <div class="card-disc p-4 col-3 rounded" v-for="item in list">
                 <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
                 <h3 class='text-center text-white'>
-                  New Jersey  
-                </h3>
-                <p class='text-center text-white'>
-                    Bon Jovi
-                </p>
-                <p class='text-center text-white fw-bold'>
-                    1988
-                </p>
-            </div>
-            <div class="card-disc p-4 col-3 rounded">
-                <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
-                <h3 class='text-center text-white'>
-                  New Jersey  
-                </h3>
-                <p class='text-center text-white'>
-                    Bon Jovi
-                </p>
-                <p class='text-center text-white fw-bold'>
-                    1988
-                </p>
-            </div>
-            <div class="card-disc p-4 col-3 rounded">
-                <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
-                <h3 class='text-center text-white'>
-                  New Jersey  
+                 {{ item.title }}
                 </h3>
                 <p class='text-center text-white'>
                     Bon Jovi

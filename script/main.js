@@ -14,7 +14,7 @@ createApp({
 
             }
           })
-          .then(function (response) {
+          .then(response =>  {
             console.log(response.data);
             this.list = response.data;
           })
