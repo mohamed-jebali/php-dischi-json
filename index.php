@@ -28,16 +28,16 @@
         </div>
         <div class="container">
             <div class="col-10 row mx-auto mb-3 justify-content-around ">
-            <div class="card-disc p-4 col-3 rounded" v-for="item in list">
-                <img class='img-card mb-2' src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
+            <div class="card-disc p-4 col-3 rounded" v-for="disc in listDiscs">
+                <img class='img-card mb-2' :src="disc.poster" alt="disc.title">
                 <h3 class='text-center text-white'>
-                 {{ item.title }}
+                 {{ disc.title }}
                 </h3>
                 <p class='text-center text-white'>
-                    Bon Jovi
+                {{ disc.author }}
                 </p>
                 <p class='text-center text-white fw-bold'>
-                    1988
+                {{ disc.year }}
                 </p>
             </div>
             </div>

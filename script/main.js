@@ -4,7 +4,7 @@ createApp({
   data() {
     return {
       apiUrl : './server.php',
-      list:[],
+      listDiscs:[],
     }
   },
   methods: {
@@ -16,7 +16,7 @@ createApp({
           })
           .then(response =>  {
             console.log(response.data);
-            this.list = response.data;
+            this.listDiscs = response.data;
           })
           .catch(function (error) {
             console.log(error);
