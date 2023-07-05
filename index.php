@@ -28,7 +28,7 @@
         </div>
         <div class="container">
             <div class="col-10 row mx-auto mb-3 justify-content-between">
-            <div class="card-disc pt-4 pb-0 px-5 col-3 mx-4 rounded mb-5" v-for="disc in listDiscs">
+            <div class="card-disc pt-4 pb-0 px-5 col-3 mx-4 rounded mb-5" v-for="disc in listDiscs" @click="getDisc(disc)">
                 <img class='img-card mb-3' :src="disc.poster" alt="disc.title">
                 <h3 class='text-center text-white'>
                  {{ disc.title }}
@@ -41,7 +41,20 @@
                 </p>
             </div>
             </div>
-    </div>
+        </div> 
+        <div class="selected-disc" v-if="selectedDisc === true">
+            <img class='img-card mb-3' :src="selectedDisc.poster" alt="selected.title">
+              <h3 class='text-center text-white'>
+                {{ selectedDisc.title }}
+              </h3>
+              <p class='text-center text-white fw-bold'>
+                {{ selectedDisc.author }}
+            </p>
+               <p class='text-center text-white fw-bold'>
+                {{ selectedDisc.year }}
+            </p>
+        </div>
+
     <script src="./script/main.js"></script>
 </body>
 </html>
